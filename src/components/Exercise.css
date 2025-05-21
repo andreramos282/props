@@ -1,0 +1,55 @@
+.exercise-box {
+    background: #3a3a3a;
+    border-radius: 8px;
+    padding: 16px;
+    margin-bottom: 18px;
+  }
+  .exercise-title {
+    font-weight: bold;
+    font-size: 18px;
+    margin-bottom: 8px;
+  }
+  .exercise-title.blue {
+    color: #5a63e6;
+  }
+  .exercise-title.red {
+    color: #e15b64;
+  }
+  .exercise-input {
+    width: 100%;
+    padding: 7px 10px;
+    border-radius: 6px;
+    border: none;
+    font-size: 16px;
+    margin-bottom: 8px;
+    background: #fff;
+    color: #555;
+    outline: none;
+    box-sizing: border-box;
+  }
+  .ball-list {
+    display: flex;
+    gap: 10px;
+    flex-wrap: wrap;
+    margin-top: 6px;
+  }
+  .ball {
+    width: 36px;
+    height: 36px;
+    border-radius: 50%;
+    color: #fff;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    font-size: 1.15rem;
+    font-weight: 600;
+    user-select: none;
+    box-shadow: 0 1px 4px #2226;
+  }
+  .ball-blue {
+    background: #5a63e6;
+  }
+  .ball-red {
+    background: #e15b64;
+    cursor: pointer;
+  }
